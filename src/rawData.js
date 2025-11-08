@@ -33,6 +33,9 @@ import VGPSLogo from "./assets/education_logo/Vedanta-logo.webp";
 import currencyLogo from "./assets/work_logo/currency.jpg";
 import pgLogo from "./assets/work_logo/PW.jpg";
 import spotGharLogo from "./assets/work_logo/spotProperty.jpg";
+import Spotify from "./assets/work_logo/Spotify.jpg";
+import TaskMngmnt from "./assets/work_logo/TaskMngmnt.jpg";
+import huntaTalk from "./assets/work_logo/huntaTalk.jpg"
 
 // Testimonial Section Images
 import RinkuPhoto from "./assets/TestimonialPhotos/Rinku.png"
@@ -191,11 +194,30 @@ export const projects = [
     title: "Task Management Web App",
     description:
       "A React-based web app that provides real-time currency conversions using live API integration, ensuring accurate and quick results with a clean UI.",
-    image: currencyLogo,
+    image: TaskMngmnt,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/ydv99anil/Currency-Convertor",
-    webapp: "https://currency-convertor-two-livid.vercel.app/",
+    github: "https://github.com/ydv99anil/TodoList-local-Storage",
+    webapp: "https://todo-list-local-storage-sigma.vercel.app/",
   },
+  {
+    id: 4,
+    title: "Spotify Clone",
+    description:
+      "A React-based web app that provides real-time currency conversions using live API integration, ensuring accurate and quick results with a clean UI.",
+    image: Spotify,
+    tags: ["React JS", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/ydv99anil/Spotify-Clone",
+    webapp: "https://spotify-clone-ten-liart-35.vercel.app",
+  },
+  {
+    id: 5,
+    title: "huntaTalk",
+    description: "A React-based web app that provides real-time currency conversions using live API integration, ensuring accurate and quick results with a clean UI.",
+    image: huntaTalk,
+    tags: ["React JS", "JavaScript", "MongoDB", "HTML", "CSS"],
+    github: "https://github.com/ydv99anil/huntaTalk",
+    webapp: ""
+  }
 ];
 
 export const testimonials = [
